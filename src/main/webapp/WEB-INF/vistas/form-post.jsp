@@ -16,7 +16,7 @@
 			Texto:<br/>
             <form:input path="texto" /><br/>		
 	            <h2>Ingrese operacion a realizar</h2> 	           
-	            <form:radiobutton class="radio" path="operacion"  name="gender" value="Pasar a mayuscula"/> Pasar a Mayuscula<br>
+	            <form:radiobutton  path="operacion"  name="gender" value="Pasar a mayuscula"/> Pasar a Mayuscula<br>
 	  			<form:radiobutton path="operacion" name="gender" value="Pasar a Minuscula"/> Pasar a Minuscula<br>
 	  			<form:radiobutton path="operacion" name="gender" value="Invertir orden del texto"/> Invertir orden del texto<br>
 	  			<form:radiobutton path="operacion" name="gender" value="Cantidad de caracteres del texto"/> Cantidad de caracteres del texto<br/>
