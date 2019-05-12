@@ -12,7 +12,7 @@ public class Ubicacion {
 	private Long idUbicacion;
 	private Long longitud;
 	private Long latitud;
-
+	
 	public Ubicacion(Long idUbicacion, Long longitud, Long latitud) {
 		super();
 		this.idUbicacion = idUbicacion;
