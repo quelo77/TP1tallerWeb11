@@ -7,45 +7,30 @@ import javax.persistence.Id;
 
 @Entity
 public class Ubicacion {
+	
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	private Long idUbicacion;
-	private Long longitud;
-	private Long latitud;
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	private Integer latitud;
+	private Integer longitud;
 	
-	public Ubicacion(Long idUbicacion, Long longitud, Long latitud) {
-		super();
-		this.idUbicacion = idUbicacion;
-		this.longitud = longitud;
-		this.latitud = latitud;
+	public Long getId() {
+		return id;
 	}
-	public Ubicacion() {
-		super();
-	
+	public void setId(Long id) {
+		this.id = id;
 	}
-	public Long getIdUbicacion() {
-		return idUbicacion;
-	}
-
-	public void setIdUbicacion(Long idUbicacion) {
-		this.idUbicacion = idUbicacion;
-	}
-
-	public Long getLongitud() {
-		return longitud;
-	}
-
-	public void setLongitud(Long longitud) {
-		this.longitud = longitud;
-	}
-
-	public Long getLatitud() {
+	public Integer getLatitud() {
 		return latitud;
 	}
-
-	public void setLatitud(Long latitud) {
+	public void setLatitud(Integer latitud) {
 		this.latitud = latitud;
 	}
-	
-	
+	public Integer getLongitud() {
+		return longitud;
+	}
+	public void setLongitud(Integer longitud) {
+		this.longitud = longitud;
+	}
+
 }
