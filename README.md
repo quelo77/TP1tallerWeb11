@@ -3,7 +3,7 @@ tw1-tp1-farmacia
 TRABAJO PRÁCTICO NRO. 1 – TW 1
 Integrantes:
 Chamorro Debora 35379016
-Moreno Ezequiel 27789176
+Luque Moreno Ezequiel 25789176
 CONSIGNA
 Taller​ ​Web​ ​1 Trabajo​ ​práctico​ ​Hibernate​ ​|​ ​Spring​ ​MVC
 Fecha límite de entrega: Martes 14 de Mayo 23:59hs.
