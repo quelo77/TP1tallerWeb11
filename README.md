@@ -1,6 +1,10 @@
- 2019 1° cuatrimestre
-tw1-tp1-farmacia
-TRABAJO PRÁCTICO NRO. 1 – TW 1
+ <h3>2019 1° cuatrimestre</h3>
+ <h2>Taller Web 1</h2>
+ <h1>Trabajo práctico Hibernate | Spring MVC</h1>
+ <br>
+ <br>
+ <br>
+ 
 Integrantes:
 Chamorro Debora 35379016
 Luque Moreno Ezequiel 25789176
