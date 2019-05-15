@@ -152,8 +152,7 @@ public class CiudadTest extends SpringTest {
 			resultado = session.createCriteria(Pais.class)
 					.createAlias("capital", "cap")
 					.createAlias("cap.ubicacionGeografica", "ubi")
-					.add(Restrictions.le("ubi.latitud", 90))
-					.add(Restrictions.ge("ubi.latitud", 30))
+					.add(Restrictions.gt("ubi.latitud", 23))
 					.list();
 
 			assertTrue(resultado.size() == 1);
