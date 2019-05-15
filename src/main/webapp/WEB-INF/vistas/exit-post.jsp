@@ -2,14 +2,16 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
-	<head>
-	<!-- Bootstrap core CSS -->
-	    <link href="css/bootstrap.min.css" rel="stylesheet" >
-	    <!-- Bootstrap theme -->
-	    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
-	</head>
-	<body>
-		<h4>Resultado de la operación ${formulario.operacion} sobre ${formulario.texto} es: <code>${formulario.operar}<code></code></h4>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Error</title>
 
-	</body>
+</head>
+<body>
+
+<h1>Error: Operación Inválida</h1>
+
+<h2>La operación ${tipoOperacion} no es válida.</h2>
+
+</body>
 </html>
